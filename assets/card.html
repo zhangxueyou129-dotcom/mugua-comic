@@ -5,28 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>木瓜漫画 地址卡片</title>
 <style>
-  /* 这个页面用于截图生成图片版地址卡片
-     在浏览器中打开后，对 .card 区域截图即可
-     推荐尺寸：800x1200 或按实际内容截取 */
   body {
     margin: 0; padding: 40px;
-    background: #0f1923;
+    background: #0c1117;
     display: flex; justify-content: center; align-items: flex-start;
     min-height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
   }
   .card {
     width: 600px;
-    background: linear-gradient(160deg, #1a2735, #0f1923);
-    border: 1px solid #2d4a63;
+    background: linear-gradient(160deg, #161b22, #0c1117);
+    border: 1px solid #21262d;
     border-radius: 24px;
     padding: 48px 40px;
     color: #fff;
   }
-  .header {
-    text-align: center;
-    margin-bottom: 36px;
-  }
+  .header { text-align: center; margin-bottom: 36px; }
   .logo {
     width: 72px; height: 72px;
     background: linear-gradient(135deg, #ff9800, #ff5722);
@@ -34,33 +28,34 @@
     display: inline-flex; align-items: center; justify-content: center;
     font-size: 36px;
     margin-bottom: 12px;
+    box-shadow: 0 6px 24px rgba(255,152,0,0.25);
   }
   .header h1 { font-size: 28px; margin: 0 0 4px; }
-  .header p { color: #888; font-size: 14px; margin: 0; }
+  .header p { color: #8b949e; font-size: 14px; margin: 0; }
   .section { margin-bottom: 28px; }
   .section h2 {
     font-size: 13px; color: #ff9800;
     text-transform: uppercase; letter-spacing: 2px;
     margin-bottom: 14px;
-    border-bottom: 1px solid #2d4a63;
+    border-bottom: 1px solid #21262d;
     padding-bottom: 8px;
   }
   .entry {
-    background: #243447;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid #21262d;
     border-radius: 10px;
     padding: 14px 18px;
     margin-bottom: 8px;
-    font-size: 16px;
   }
-  .entry .label { color: #999; font-size: 12px; }
+  .entry .label { color: #8b949e; font-size: 12px; }
   .entry .value { color: #fff; font-size: 18px; font-weight: 600; margin-top: 2px; }
-  .tg-entry .value { color: #2196f3; }
+  .tg-entry .value { color: #58a6ff; }
   .footer {
     text-align: center;
-    color: #555; font-size: 12px;
+    color: #484f58; font-size: 12px;
     margin-top: 24px;
     padding-top: 16px;
-    border-top: 1px solid #1e3348;
+    border-top: 1px solid #21262d;
   }
 </style>
 </head>
@@ -70,34 +65,14 @@
   <div class="header">
     <div class="logo">🍈</div>
     <h1>木瓜漫画</h1>
-    <p>官方地址卡片 · 2026-04-08</p>
+    <p>官方地址卡片 · 2026-04-09</p>
   </div>
 
   <div class="section">
     <h2>网站入口</h2>
     <div class="entry">
-      <div class="label">线路 1</div>
-      <div class="value">example1.com</div>
-    </div>
-    <div class="entry">
-      <div class="label">线路 2</div>
-      <div class="value">example2.com</div>
-    </div>
-    <div class="entry">
-      <div class="label">线路 3</div>
-      <div class="value">example3.com</div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>APP 下载</h2>
-    <div class="entry">
-      <div class="label">GitHub（国际）</div>
-      <div class="value">github.com/xxx/releases</div>
-    </div>
-    <div class="entry">
-      <div class="label">蓝奏云（国内）密码：1234</div>
-      <div class="value">lanzou.com/xxx</div>
+      <div class="label">主线路</div>
+      <div class="value">comic.baby</div>
     </div>
   </div>
 
@@ -106,6 +81,14 @@
     <div class="entry tg-entry">
       <div class="label">关注频道获取最新地址</div>
       <div class="value">t.me/papayacomic</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>地址找回</h2>
+    <div class="entry">
+      <div class="label">GitHub 发布页（永不失效）</div>
+      <div class="value" style="font-size:14px;">github.com/skillerbee7/mugua-comic</div>
     </div>
   </div>
 
